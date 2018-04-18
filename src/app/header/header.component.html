@@ -1,3 +1,11 @@
-<p>
-  header works!
-</p>
+<div id="header">
+  <div class="logo-layout">Logo Layout</div>
+  <div class="menu-layout">
+
+    <ul>
+      <li *ngFor="let menu of menus">{{menu.displayName}}</li>
+    </ul>
+
+
+  </div>
+</div>

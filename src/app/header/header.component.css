@@ -1,0 +1,28 @@
+#header{
+    width:100%;
+    height: 100px;    
+}
+.logo-layout{
+    width:18%;
+    background-color: green;
+    float: left;
+    padding:1%;
+    height: 100%;
+}
+.menu-layout{
+    width: 78%;
+    float: left;
+    background-color: #f0f0f0;
+    padding:1%;
+    height: 100%;
+}
+
+.menu-layout ul{
+    padding: 0px;
+} 
+
+.menu-layout ul > li{
+    padding: 1.5%;
+    list-style-type: none;
+    display: inline;
+}
