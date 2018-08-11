@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { MenuService } from '../services/menuservice.service';
-import { Menu} from '../modal/menu';
+import { MenuService } from './services/menuservice.service';
+import { Menu} from './modal/menu';
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
 
@@ -15,15 +15,11 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit() {
     this.getMenu();
-
   }
 
   getMenu()
   {
-    this.menuService.getMenu().then(menus => this.menus = menus);
+    this.menuService.getMenu().subscribe(menus => this.menus = menus);
   }
-
-
-
 
 }
