@@ -1,0 +1,99 @@
+.banner{
+    background-color:#212121 !important;
+    height: 46px;
+    width: 100%;
+}
+.daily-offers{
+    float:left;
+}
+
+.daily-offers a{
+	font-size: 1.2em;
+    color: #fff;
+    text-decoration: none;
+    padding: .5em 3em;
+    background: #84C639;
+    display:block;
+}
+
+.search-bar{
+	float: left;
+    width: 27%;
+    margin:.1em 0 0em 10em;
+}
+.search-bar input[type="text"]{
+	outline: none;
+    padding: 10px;
+    color: #212121;
+    font-size: 14px;
+    width: 85%;
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+}
+
+.search-bt{
+    float: left !important;
+    width:40px !important;
+}
+
+.product_list_header {
+    float: left;
+    margin:0.1em;
+    margin-left: 3em;
+}
+
+.product_list_header ::ng-deep .mat-flat-button.mat-primary {
+    background-color:transparent;
+}
+
+.white-icon{
+    color:white !important;
+}
+.userlogin{
+    float: left;
+    padding-left: 8em;
+}
+
+.top-right-link{
+    float:right;
+}
+
+.top-right-link a{
+	font-size: 1.21em;
+    color: #fff;
+    padding: .5em 1.5em;
+    background: #FA1818;
+    display: block;
+	text-decoration:none;
+}
+
+.viewcart-lnk{
+    border: 1px solid #84c639 !important;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.viewcart-lnk .txt{
+    text-align: center;
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.viewcart-lnk .bt{
+    text-align: center;
+    display: inline-block;
+    
+}
+
+.search-bar .txt{
+    text-align: center;
+    display: inline-block;
+    
+}
+
+.search-bar .bt{
+    text-align: center;
+    display: inline-block;
+    
+}

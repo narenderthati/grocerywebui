@@ -5,6 +5,7 @@
 
 export const environment = {
   production: false,
-  environmentIP :'http://localhost:8080/gwa'
-  //environmentIP : 'http://prod.servername:1000/gwa'
-};
+  appendpointIP:'http://localhost:8080/gwa',
+  adminendpointIP:'http://localhost:8080/gwa/amin'
+}
+

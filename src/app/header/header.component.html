@@ -1,11 +1,19 @@
-<div id="header">
-  <div class="logo-layout">Logo Layout</div>
-  <div class="menu-layout">
+<div class="header">
+	<div class="container">
+    <div class="logo-layout">
+        <a routerLink="" rounterLinkActive="active"><img src="../../assets/images/grocerystore-logo.png"></a>
+    </div>
+    <div class="menu-layout">
+      <ul>
+        <li *ngFor="let menu of menus ; index as i; last as isLast"><a routerLink="{{menu.url}}" rounterLinkActive="active">{{menu.displayName}}</a>
+            <i *ngIf="!isLast">/</i>
+        </li>
+      </ul>
 
-    <ul>
-      <li *ngFor="let menu of menus">{{menu.displayName}}</li>
-    </ul>
-
-
-  </div>
+      <ul class="info-txt">
+        <li><mat-icon>call</mat-icon><span>(+1123) 956 1234 </span></li>
+        <li><mat-icon>mail_outline</mat-icon><span>example@example.org </span></li>
+      </ul>
+    </div>
+  <div class="clearfix"> </div>
 </div>

@@ -1,6 +1,11 @@
+
 import { Routes, RouterModule } from '@angular/router';
 import { ModuleWithProviders } from '@angular/core';
 import { DailyoffersComponent } from './dailyoffers/dailyoffers.component';
+import { Routes, RouterModule} from '@angular/router';
+import { ModuleWithProviders } from '@angular/core';
+
+
 
 export const ROUTER: Routes = [
     {
@@ -28,7 +33,7 @@ export const ROUTER: Routes = [
         component:''
     },
     {
-        
+
     }*/
 
 
@@ -36,3 +41,10 @@ export const ROUTER: Routes = [
 ];
 
 export const appRouter: ModuleWithProviders = RouterModule.forRoot(ROUTER);
+        loadChildren: './common/common.module#CommonModule'
+    }
+
+]
+
+export const appRouter: ModuleWithProviders = RouterModule.forRoot(ROUTER);
+

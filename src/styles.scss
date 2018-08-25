@@ -1,0 +1,23 @@
+@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+html, body{
+    font-size: 100%;
+	font-family: 'Open Sans', sans-serif;
+    background:#ffffff;
+    margin: 0px;
+    padding: 0px;
+}
+div,ul{
+    margin: 0px;
+    padding:0px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.material-icons {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
